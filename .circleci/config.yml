@@ -1,7 +1,7 @@
 version: 2.1
 
 commands:
-    install_awscli
+    install_awscli:
       description: Install AWS CLI.
       steps:
         - run: 
@@ -11,7 +11,7 @@ commands:
               unzip awscliv2.zip
               sudo ./aws/install
 
-    install_ansible
+    install_ansible:
       description: Install Ansible on Ubuntu.
       steps:
         - run: 
